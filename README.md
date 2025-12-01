@@ -1,5 +1,5 @@
 ### ENCODER 8TO3 DATAFLOW Modelling
-
+**DATE : 02/12/2025**
 **AIM:**
 
 To implement  Encoder 8 To 3 in Dataflow Modelling using verilog and validating their functionality using their functional tables
@@ -40,17 +40,94 @@ Figure 02  Encoder 8 * 3
 
 **PROGRAM**
 
+encoder8to3 
+```
+module enc(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7);
+input y0,y1,y2,y3,y4,y5,y6,y7;
+output a,b,c;
+assign a= ( y4 | y5 | y6 | y7);
+assign b= ( y2 | y3 | y6 | y7);
+assign c= ( y1 | y3 | y5 | y7);
+endmodule
+```
+
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+Developed by: SHREEJA R S
+RegisterNumber: 25017561
 */
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
+<img width="631" height="575" alt="Screenshot 2025-12-02 001222" src="https://github.com/user-attachments/assets/730bcd61-0118-41d0-9580-3b615bfc820b" />
+
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
+<img width="949" height="284" alt="Screenshot 2025-12-02 001249" src="https://github.com/user-attachments/assets/419600da-71c5-4301-ae40-439038b48b77" />
 
 **RESULTS**
+             Thus, Encoder 8 To 3 in Dataflow Modelling using verilog and validating their functionality using their functional tables is implemented
+             .
 
+             .
+             ..
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             ..
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             ..
+             .
+             .
+             .
+             .
+             ..
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             
 
 
 
